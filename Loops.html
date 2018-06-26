@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>loops</title>
+    </head>
+    
+    <body>
+        <script>    
+            console.log("One to Twenty");
+            for(var i = 1; i <= 20; i++) {
+               console.log(i);
+            }
+            console.log("One to Twenty Even")
+            for (var i = 2; i <= 20; i += 2){
+                console.log(i);
+            }
+            console.log("One to Twenty Odd")
+            for (var i = 1; i <= 20; i += 2){
+                console.log(i);
+            }
+            console.log("Five to One-Hundred Multiples")
+            for (var i = 5; i <= 100; i += 5){
+                console.log(i);
+            }
+            var holder = 1;
+            console.log("Square Numbers less than one-hundred")
+            for (var i = 1; i <= 10; i += 1){
+                i = i * i;
+                console.log(i);
+                i = i / holder;
+                holder ++;
+            }
+            console.log("Twenty to One")
+            for (var i = 20; i >= 1; i -= 1){
+                console.log(i);
+            }
+            console.log("Twenty to One Even")
+            for (var i = 20; i >= 1; i -= 2){
+                console.log(i);
+            }
+            console.log("Twenty to One odd")
+            for (var i = 20; i >= 1; i -= 2){
+                console.log(i);
+            }
+            console.log("Five to One-Hundred Multiples Backwards")
+            for (var i = 100; i >= 1; i -= 5){
+                console.log(i);
+            }
+            holder = 10;
+            console.log("Square numbers less than one-hundred backwards")
+            for (var i = 10; i >= 1; i -= 1){
+                i = i * i;
+                console.log(i);
+                i = i / holder;
+                holder --;
+            }
+        </script>
+    </body>
+</html>
